@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-rooms',
   templateUrl: './rooms.html',
-  styleUrl: './rooms.css',
+  styleUrls: ['./rooms.css'],
 })
 export class Rooms implements OnInit {
   hotelName: string = 'Hotel California';
